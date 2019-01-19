@@ -24,7 +24,7 @@ public class TestController {
 	@Autowired
 	private TestService helloService;
 
-	@RequestMapping(value = "/contact", method = RequestMethod.GET)
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public APIResult listCountry() {
 
 		APIResult apiResult = new APIResult();
